@@ -11,3 +11,17 @@
     }
   }
 </script>
+// tabler icon style
+<style lang="scss" scoped>
+$icon-color: #2c3e50;;
+.icon {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	svg {
+		font-size: 1.25rem;
+		stroke: $icon-color;
+	}
+}
+</style>
