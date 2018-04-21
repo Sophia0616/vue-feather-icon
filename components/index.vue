@@ -20,7 +20,7 @@ $icon-color: #2c3e50;;
 	align-items: center;
 	justify-content: center;
 	svg {
-		font-size: 1.25rem;
+		font-size: 0.875rem;
 		stroke: $icon-color;
 	}
 }
