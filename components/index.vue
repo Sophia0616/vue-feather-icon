@@ -13,7 +13,6 @@
 </script>
 // tabler icon style
 <style lang="scss" scoped>
-$icon-color: #2c3e50;;
 .icon {
 	text-align: center;
 	display: flex;
@@ -21,7 +20,11 @@ $icon-color: #2c3e50;;
 	justify-content: center;
 	svg {
 		font-size: 0.875rem;
-		stroke: $icon-color;
+		margin-right: .25rem;
+		line-height: 1;
+		width: 0.875rem;
+		vertical-align: baseline;
+   		display: inline-block;
 	}
 }
 </style>
